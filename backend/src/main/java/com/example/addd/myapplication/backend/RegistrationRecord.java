@@ -14,17 +14,30 @@ public class RegistrationRecord {
     Long id;
 
     @Index
-    private String regId;
+    private String regId, nama;
+
+
+
     // you can add more fields...
 
     public RegistrationRecord() {
     }
 
+
     public String getRegId() {
         return regId;
     }
 
+
+
     public void setRegId(String regId) {
         this.regId = regId;
+    }
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 }

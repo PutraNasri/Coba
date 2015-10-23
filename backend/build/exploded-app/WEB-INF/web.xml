@@ -14,8 +14,9 @@
         <init-param>
             <param-name>services</param-name>
             <param-value>com.example.addd.myapplication.backend.RegistrationEndpoint,
-                com.example.addd.myapplication.backend.MessagingEndpoint
-            </param-value>
+                com.example.addd.myapplication.backend.MessagingEndpoint,
+                com.example.addd.myapplication.backend.UserRecondEndpoint,
+                com.example.addd.myapplication.backend.RegistrationRecordEndpoint</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
